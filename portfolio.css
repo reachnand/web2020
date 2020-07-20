@@ -1,0 +1,52 @@
+h1 {
+    font: italic small-caps bold 42px arial,sans-serif;
+    text-align: center;
+    color: rgb(175, 28, 243);
+    background-image: url(https://images.unsplash.com/photo-1578852612716-854e527abf2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+.welcome h3 {
+        font-family: fantasy;
+        text-align: left;
+        text-indent: 70px;
+        background-color: sandybrown;
+}
+h4 {
+    font: italic bold 21px arial,sans-serif;
+    text-align: center;
+    color: rgb(63, 170, 143);
+    background-color: rgb(226, 223, 223);
+}
+.head1 {
+    background-image: url(https://images.unsplash.com/photo-1594896661312-3a41f3439870?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flexbox;
+    background-color: rgb(94, 119, 69);
+    align-content: center;
+}
+.head1 h2{
+    font-family: Racing Sans One,cursive;
+    color: rgb(108, 21, 190);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.head1 p{
+    color: wheat;
+}
+
+.hero nav {
+    text-align-last: right;
+    align-content: center;
+    font: bold 22px arial;
+    margin-top: 10px;
+}
+footer {
+        text-align: center;
+        padding: 2px;
+        background-color: rgb(104, 226, 169);
+        color: white;
+      }
+
+  
