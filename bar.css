@@ -1,0 +1,33 @@
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+body {
+    background-color:rgb(233,217,188);
+}
+.barhead {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgb(134, 119, 119);
+}
+.h2gh {
+    line-height: 2.1;
+    font-size: x-large;
+    font-weight: bold;
+    color: maroon; 
+}
+.para {
+    text-indent: 30px;
+}
+section li {
+    font-weight: bold;
+    color: red;
+}
+div h1 {
+    background-color: rgb(202, 188, 153);
+}
+h2 {
+    color: maroon;
+}
