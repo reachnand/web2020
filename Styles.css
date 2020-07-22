@@ -1,0 +1,48 @@
+.hero {
+    width: 100vw;
+    height: 300px;
+    background-image: url(./hero.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero nav {
+    align-self: flex-end;
+    margin-top: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+    padding: 5px;
+}
+body { 
+    #background-color: rgb(202, 186, 116);
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+}
+main {
+    margin:20px;
+}
+.hero h1,
+.hero h2 {
+    background-color: rgb(72, 132, 167);
+    color: yellowgreen;
+    align-self: center;
+    padding: 5px;
+}
+.hero h1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+.hero h2 {
+    margin-top: 10px;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}

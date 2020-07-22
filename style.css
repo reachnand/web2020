@@ -1,0 +1,57 @@
+.hobbies {
+    width: 100vw;
+    height: 300px;
+    background-size: cover;
+    display: flexbox;
+    margin-top: 0px;
+    background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2017/08/shutterstock_637712143.jpg")
+    
+}
+body {
+    background-color: rgb(146, 146, 97);
+}
+div h1 {
+   // margin: 60px, 10px, 50px, 400px;
+    margin-top: 60px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    border: 10px groove rgb(82, 82, 150);
+    text-align: center;
+    width: 20%;
+    border-width: 30px;
+   // color: rgb(131, 75, 75);
+   color: red;
+}
+h3 {
+    margin-left: 150px;
+    color: teal;
+}
+h2 {
+    color: rgb(38, 26, 110);
+    // font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a {
+    
+    color: rgb(61, 38, 38);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(230, 216, 34);
+    padding: 5px;
+    border-radius: 10px;
+}
+.hobbies nav {
+    align-self: auto;
+    margin-top: auto;
+}
+.h3style {
+    
+}
+h4 {
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgoldenrod;
+}
+button {
+    border-radius: 10px;
+    color: rgb(152, 44, 214);
+    border-right: 200px;
+}
