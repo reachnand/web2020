@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_Planner</title>
+</head>
+<!--Bootstrap code for responsive pages-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<!--Google fonts link-->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<!--The below link is for adding Font Awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!--Below link is for the CSS code-->
+<link rel="stylesheet" href="./finalproject.css">
+<body>
+    <style>
+        h2 {
+          font-family: cursive; background-color: rgb(196, 54, 21);
+        }
+      /*
+        .thick-green-border {
+          border-color: rgb(202, 101, 148);
+          border-width: 6px;
+          border-style: solid;
+          border-radius: 30%;
+        }   */
+      </style>
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-8">
+            <h2 class="text-primary text-center">Task-Planner</h2>
+          </div>
+          
+        </div>
+        <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" class="img-responsive" alt="Roll your sleeves mate!">
+        <div class="row">
+          <div class="col-xs-2">
+            <button class="btn btn-block btn-primary">Monday</button>
+          </div>
+          <div class="col-xs-2">
+            <button class="btn btn-block btn-primary">Tuesday</button>
+          </div>
+          <div class="col-xs-2">
+            <button class="btn btn-block btn-primary">Wednesday</button>
+          </div>
+          <div class="col-xs-2">
+            <button class="btn btn-block btn-primary">Thursday</button>
+          </div>
+          <div class="col-xs-2">
+            <button class="btn btn-block btn-primary">Friday</button>
+          </div>
+          <div class="col-xs-2">
+            <button class="btn btn-block btn-info">Saturday</button>
+          </div>
+
+          <div class="col-xs-2">
+            <button class="btn btn-block btn-danger">Sunday</button>
+          </div>
+        </div>
+   <!--
+        <p>Things cats <span class="text-danger">love:</span></p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol> -->
+        <form action="https://reachnand.github.io/">
+          <div class="row"><label><input type="radio" name="indoor-outdoor"> Completed</label>
+          <label><input type="radio" name="indoor-outdoor"> Pending</label>
+          </div>
+          <div class="row descriptionlabel">
+              <label for="Description">Description</label>
+              <textarea name="Assignee" id="Assignee" cols="25" rows="5"></textarea>
+              <br>
+          <label for="Assignee">Assignee</label>
+              <label><input type="checkbox" name="personality"> Anand</label>
+          <label><input type="checkbox" name="personality"> Hosai</label>
+          <label><input type="checkbox" name="personality"> Saba</label>
+          </div>
+          <input type="text" placeholder="Enter Task date" required>
+          <button type="submit">Retrieve</button>
+        </form>
+      </div>
+          
+</body>
+</html>

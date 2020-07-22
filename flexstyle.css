@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+  }
+  
+  .flex-container  div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 30px;
+  }
+
+  /* --- div colors ---*/
+.div1{
+      background-color: aqua;
+}
+.div2{
+    background-color: rgb(243, 139, 212);
+}
+.div3{
+    background-color: rgb(197, 204, 155);
+}
+.div4{
+    background-color: rgb(209, 145, 164);
+}
+.div5{
+    background-color: rgb(161, 248, 187);
+}
+.div6{
+    background-color: rgb(180, 176, 218);
+}
+.div7{
+    background-color: rgb(202, 200, 70);
+}
+.div8{
+    background-color: rgb(202, 143, 230);
+}

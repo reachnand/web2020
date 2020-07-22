@@ -1,0 +1,11 @@
+.hero {
+   
+    display: flex;
+    background-color: tomato;
+    flex-direction: initial;
+    text-align: center;
+}
+.hero nav {
+    align-self: flex-end;
+    margin-top: 20px;
+}
