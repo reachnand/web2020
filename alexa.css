@@ -1,0 +1,37 @@
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+body {
+    width: 50%;
+  background-color: rgb(209, 199, 199);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  word-wrap: normal;
+   /* background-repeat: no-repeat;
+    background-position-x: 200px;*/
+}
+img {
+    border-radius: 50px;
+}
+
+.button1, .button2 {
+    color: rgb(40, 212, 97);
+    background-color: tomato;
+    margin-left: 200px;
+}
+.parag {
+    text-indent: 30px;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+}
+section li {
+    font-weight: bold;
+    color: rgb(20, 79, 148);
+}
+.price {
+    color: red;
+    font-weight: bold;
+}
